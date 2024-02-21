@@ -10,9 +10,9 @@
 
 ### source material:
 
-1. Ubuntu 20.04 installation      :https://www.youtube.com/watch?v=BnV23ZEI34w&ab_channel=ProgrammingKnowledge2
-2. ROS Noetic installation: https ://www.youtube.com/watch?v=ZA7u2XPmnlo&ab_channel=RoboticsBack-End
-3. Arduino installation tutorial  :https://www.youtube.com/watch?v=QTK1g0P8OUM&list=PLVZDfM16Af8nOa5SLcIAcPFzIGaJhaRgs&index=7&t=5875s&ab_channel=infinitychgg
+1. Ubuntu 20.04 installation:https://www.youtube.com/watch?v=BnV23ZEI34w&ab_channel=ProgrammingKnowledge2
+2. ROS Noetic installation: https://www.youtube.com/watch?v=ZA7u2XPmnlo&ab_channel=RoboticsBack-End
+3. Arduino installation tutorial:https://www.youtube.com/watch?v=QTK1g0P8OUM&list=PLVZDfM16Af8nOa5SLcIAcPFzIGaJhaRgs&index=7&t=5875s&ab_channel=infinitychgg
 3. Arduino IDE version 1.8.15 installation :https://www.youtube.com/watch?v=qS-VnkhkjNI&ab_channel=ANALOGTecHII
 
 
@@ -29,8 +29,13 @@
 
 ![pic ](https://github.com/Panumart22/Panumart_0104/assets/154341326/ff87c2d9-833e-4717-83b6-9cbd0bccbdb0)
 
+##Assembly robot preview:
+
+
+
 ### rviz robot preview:
 
+![46_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/6d161f5b-f1cf-434c-8b7c-9749e2ae3b6d)
 
 
 ### Step to install:
