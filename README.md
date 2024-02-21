@@ -64,10 +64,26 @@
 4. Create a new directory So if you run this command from terminal
 ```bash
       mkdir catkin_ws
-
 ```
+![a6](https://github.com/Panumart22/Panumart_0104/assets/154341326/2c1e097c-125f-430a-881e-83809080f5f0)
+
 5. Go to the “catkin_ws” folder
 ```bash
      cd catkin_ws
 ```
-
+6. Use the following command to create the folder name “src”
+```bash
+     mkdir src
+```
+7. Use the following command to construct files and folders that are the base construction in “catkin”
+```bash
+     catkin_make
+```
+8. Now, after we constructed the workspace, we are going to make every Terminal can access workspace. By using the following command, .bashrc file will be open with default text editor.
+```bash
+    gedit ~/.bashrc
+```
+9. Scroll down to the last line and press Enter. Then add the following command to .bashrc file
+```bash
+    source ~/catkin_ws/devel/setup.bash
+```  
