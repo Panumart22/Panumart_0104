@@ -44,10 +44,10 @@
 
 ### Rviz robot preview:
 
-![46_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/6d161f5b-f1cf-434c-8b7c-9749e2ae3b6d)
+![429099030_388374107168104_5410754382250658877_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/0427f4f8-bc03-4c25-bb15-e0adbf46dc56)
 
 
-## How to Construct ROS Workspace:
+## How to Construct ROS Workspace
 1. You will only need to run this command once after installing ROS for rosdep to work properly on your system.:
 
 ```bash
@@ -90,3 +90,57 @@
     source ~/catkin_ws/devel/setup.bash
 ```  
 Save the file. ROS Workspace now has been done!!
+
+## Creat ROS Package
+1. Open Terminal and go to catkin_ws directory with the following command
+```bash
+    cd catkin_ws
+```
+
+2. Go deeper into src folder
+```bash
+    cd src
+```
+
+3. At path “catkin_ws/src”, use the following command to construct the package folder name
+```bash
+    catkin_create_pkg (your package name) rospy
+```
+4. Go back to workspace directory
+```bash
+    cd ..
+    catkin_make
+```
+
+## How to install
+1.go into src file of your ROS workspace
+```bash
+    cd ~/(name your catkin workspace)/git_dir
+```
+
+2.clone github
+```bash
+    git clone https://github.com/kninso/ros_robot-rr-.git
+```
+```bash
+    cd ..
+```
+```bash
+    catkin_make
+```
+
+3.add permission to execute gui python
+```bash
+    cd src/ROS_Project
+```
+```bash
+    chmod +x gui_ros.py
+```
+```bash
+    roslaunch ROS_Project ros_robot.launch port:="(name your port of arduino)"
+```
+
+
+
+
+
