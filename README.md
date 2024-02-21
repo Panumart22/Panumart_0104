@@ -1,4 +1,4 @@
-# RR_ROBOT
+# ROS_ROBOT(RR)
 ### software requirement:
 
 1. Ubuntu 20.04
@@ -8,12 +8,19 @@
 5. Visual Studio Code :  version 1.86.2 
 6. Tkinter GUI python library
 
-### source material:
+## source material:
 
-1. Ubuntu 20.04 installation:https://www.youtube.com/watch?v=BnV23ZEI34w&ab_channel=ProgrammingKnowledge2
-2. ROS Noetic installation: https://www.youtube.com/watch?v=ZA7u2XPmnlo&ab_channel=RoboticsBack-End
-3. Arduino installation tutorial:https://www.youtube.com/watch?v=QTK1g0P8OUM&list=PLVZDfM16Af8nOa5SLcIAcPFzIGaJhaRgs&index=7&t=5875s&ab_channel=infinitychgg
-3. Arduino IDE version 1.8.15 installation :https://www.youtube.com/watch?v=qS-VnkhkjNI&ab_channel=ANALOGTecHII
+#### How To Install Ubuntu 20.04 installation:
+> https://www.youtube.com/watch?v=BnV23ZEI34w&ab_channel=ProgrammingKnowledge2
+
+#### ROS Noetic installation: 
+> https://www.youtube.com/watch?v=ZA7u2XPmnlo&ab_channel=RoboticsBack-End
+
+#### Arduino installation tutorial:https:
+> www.youtube.com/watch?v=QTK1g0P8OUM&list=PLVZDfM16Af8nOa5SLcIAcPFzIGaJhaRgs&index=7&t=5875s&ab_channel=infinitychgg
+
+#### Visual Studio Code 1.86.2 installation :
+> https://www.youtube.com/watch?v=qS-VnkhkjNI&ab_channel=ANALOGTecHII](https://www.youtube.com/watch?v=ChwsFldra-o&ab_channel=ProgrammingKnowledge)
 
 
 ### Hardware requirement:
@@ -23,24 +30,44 @@
 3. Encoder B1K      1
 4. MG996R servo 6v  1
 5. G90S servo 5v    1
+6. Breadboard       1
+7. USB V2.0 (Type A To Type B ) 1
+8. Power Supply 5V 2A 1
 
-
-### circuit connection:
+### Circuit connection:
 
 ![pic ](https://github.com/Panumart22/Panumart_0104/assets/154341326/ff87c2d9-833e-4717-83b6-9cbd0bccbdb0)
 
-##Assembly robot preview:
+### Assembly rob
 
+![9_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/3af232d0-3b59-4c0c-ba30-124986d7e15b)
 
-
-### rviz robot preview:
+### Rviz robot preview:
 
 ![46_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/6d161f5b-f1cf-434c-8b7c-9749e2ae3b6d)
 
 
-### Step to install:
-1. go into src file of your ROS workspace with this command:
+## How to Construct ROS Workspace:
+1. You will only need to run this command once after installing ROS for rosdep to work properly on your system.:
 
+```bash
+     sudo rosdep init 
+```
+2. This command is the best way to set up automatic loading of ROS scripts on your system each time you open a new shell.
+```bash
+      echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+```
+3. This command will immediately load the ROS script in your current shell session. This allows you to use ROS commands in that shell immediately without needing to open a new shell.
+```bash
+      source ~/.bashrc
+```
+4. Create a new directory So if you run this command from terminal
+```bash
+      mkdir catkin_ws
 
-
+```
+5. Go to the “catkin_ws” folder
+```bash
+     cd catkin_ws
+```
 
