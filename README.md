@@ -27,7 +27,7 @@
 
 ### circuit connection:
 
-
+![pic ](https://github.com/Panumart22/Panumart_0104/assets/154341326/ff87c2d9-833e-4717-83b6-9cbd0bccbdb0)
 
 ### rviz robot preview:
 
