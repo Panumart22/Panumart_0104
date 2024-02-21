@@ -75,7 +75,7 @@
 ```bash
      mkdir src
 ```
-![423454847_1512196402686297_7451291331763420414_n](https://github.com/Panumart22/Panumart_0104/assets/154341326/5ef29d5b-edf2-4756-a084-ad95a58332e4)
+![111](https://github.com/Panumart22/Panumart_0104/assets/154341326/5c142cac-555f-41f9-82cc-b6ac77c0167a)
 
 7. Use the following command to construct files and folders that are the base construction in “catkin”
 ```bash
@@ -120,7 +120,7 @@ Save the file. ROS Workspace now has been done!!
 
 2.clone github
 ```bash
-    git clone https://github.com/kninso/ros_robot-rr-.git
+    git clone https://github.com/kaninso/ros_robot-rr-.git
 ```
 ```bash
     cd ..
@@ -131,13 +131,13 @@ Save the file. ROS Workspace now has been done!!
 
 3.add permission to execute gui python
 ```bash
-    cd src/ROS_Project
+    cd src/projectros
 ```
 ```bash
     chmod +x gui_ros.py
 ```
 ```bash
-    roslaunch ROS_Project ros_robot.launch port:="(name your port of arduino)"
+    roslaunch rojectros rviz_node.launch port:="(name your port of arduino)"
 ```
 
 
